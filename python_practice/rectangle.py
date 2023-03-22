@@ -14,7 +14,7 @@ class Square:
         return self.a ** 2
 
 class Circle:
-    def __init__(self,a):
-        self.a = a
+    def __init__(self,r):
+        self.r = r
     def get_area_circle(self):
-        return math.pi * self.a ** 2
+        return math.pi * self.r ** 2
